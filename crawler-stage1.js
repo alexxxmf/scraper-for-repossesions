@@ -46,7 +46,7 @@ const getRecordsFromPage = async page => {
   let pagSig;
 
   do {
-    console.log(`::: Crawling page ${step + 1} :::`);
+    console.log(`::: Crawling page ${step + 1} ::: \n`);
     let newRange = RESULTS_PER_PAGE * step;
     url = getUrl(newRange);
     await resultsPage.goto(url);
@@ -56,7 +56,7 @@ const getRecordsFromPage = async page => {
     records = [...records, ...pageRecords];
 
     step += 1;
-    console.log(`::: Done crawling page ${step + 1} :::`);
+    console.log(`::: Done crawling page ${step + 1} :::\n`);
   } while (!!pagSig);
 
   const elapsedTime = (Date.now() - start) / 1000;
