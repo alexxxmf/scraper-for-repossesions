@@ -6,6 +6,7 @@
   "author": "alexxxmf <amoro@alumni.unav.es>",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "puppeteer": "^2.1.1"
   }
 }

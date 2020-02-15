@@ -13,17 +13,19 @@ const getRecordsFromPage = async page => {
     let pagSig = document.querySelector(".pagSig");
     const records = [];
 
-    const links = document.querySelectorAll(".resultado-busqueda-link-defecto");
+    const links = document.querySelectorAll(".resultado-busqueda");
 
     let i;
     for (i = 0; i < links.length; i++) {
-      const href = links[i].href;
+      const lot = links[i].innerText.includes("lotes");
+      const linkA = links[i].querySelector(".resultado-busqueda-link-defecto");
+      const href = linkA.href;
       const queryParamsString = href.substring(href.indexOf("?") + 1);
       const queryParams = new URLSearchParams(queryParamsString);
 
       const subId = queryParams.get("idSub");
 
-      records.push({ subId, href });
+      records.push({ subId, href, lot });
     }
 
     return records;
