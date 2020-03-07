@@ -1,0 +1,74 @@
+{
+  "informacion_general": {
+    "identificador": "SUB-JA-2020-142949",
+    "tipo_de_subasta": "JUDICIAL EN VIA DE APREMIO",
+    "fecha_de_inicio": "14-02-2020 18:00:00 CET (ISO: 2020-02-14T18:00:00+01:00)",
+    "fecha_de_conclusion": "06-03-2020 00:00:39 CET (ISO: 2020-03-06T00:00:39+01:00)",
+    "cantidad_reclamada": "13.807,39 €",
+    "lotes": "2",
+    "forma_adjudicacion": "Separada para cada lote",
+    "anuncio_boe": "BOE-B-2020-5841",
+    "valor_subasta": "Ver valor de subasta en cada lote (los lotes se subastan de forma independiente)",
+    "tasacion": "Ver valor de tasación en cada lote (los lotes se subastan de forma independiente)",
+    "puja_minima": "Ver puja mínima de cada lote (adjudicación independiente)",
+    "tramos_entre_pujas": "Ver tramos de cada lote (adjudicación independiente)",
+    "importe_del_deposito": "Ver importe de consignación de cada lote (adjudicación independiente)"
+  },
+  "autoridad_gestora": {
+    "codigo": "2807942057",
+    "descripcion": "JUZGADO 1ª INSTANCIA 57 (Ministerio de Justicia)",
+    "direccion": "CL MARIA DE MOLINA 42 42 ; 28006 MADRID",
+    "telefono": "914930863",
+    "fax": "914930864",
+    "correo_electronico": "JUZPRIMINSTANCIA057MADRID@MADRID.ORG"
+  },
+  "lotes": {
+    "1": {
+      "valor_subasta": "38.150,00 €",
+      "valor_de_tasacion": "38.150,00 €",
+      "importe_del_deposito": "1.907,50 €",
+      "puja_minima": "Sin puja mínima",
+      "tramos_entre_pujas": "Sin tramos",
+      "descripcion": "LOCAL 1-A-2. TIENE UNA SUPERFICIE CONSTRUIDA, APROXIMADA, DE 24 METROS CUADRADOS DE LOS CUALES UN METRO CUADRADO CORRESPONDE A LA REPERCUSIÓN POR ELEMENTOS GENERALES DE LA FINCA. SU CUOTA DE PARTICIPACION EN LOS ELEMENTROS COMUNES ES 0,251 % RESPECTO DEL TOTAL DEL INMUEBLE.",
+      "idufir": "28103000257040",
+      "referencia_catastral": "3564501VK4736D002UO",
+      "direccion": "C/ Villafranca, nº 17 (Galería Local nº 2)",
+      "codigo_postal": "28028",
+      "localidad": "MADRID",
+      "provincia": "Madrid",
+      "vivienda_habitual": "No",
+      "situacion_posesoria": "Sin ocupantes",
+      "visitable": "No consta",
+      "cargas": "EN LA CERTIFICACION DE CARGAS DEL R.P Nº 22 DE MADRID UNIDA A AUTOS NO CONSTA CARGAS ANTERIORES AL GRAVAMEN QUE SE EJECUTA",
+      "inscripcion_registral": "Finca registral número 82.830 del Registro de la Propiedad Nº 22 de Madrid tomo 2219, libro 2219 folio 81 inscripción 1º"
+    },
+    "2": {
+      "valor_subasta": "58.750,00 €",
+      "valor_de_tasacion": "58.750,00 €",
+      "importe_del_deposito": "2.937,50 €",
+      "puja_minima": "Sin puja mínima",
+      "tramos_entre_pujas": "Sin tramos",
+      "descripcion": "LOCAL 1-A-19: TIENE UNA SUPERFICIE CONSTRUIDA APROXIMADA DE 37,575 METROS CUADRADOS DE LOS CUALES UN METRO CUADRADO CORRESPONDE A LA REPERCUSIÓN POR ELEMENTOS GENERALES DE LA FINCA. SU CUOTA DE PARTICIPACIÓN EN LOS ELEMENTOS COMUNES ES DE 0,386%",
+      "idufir": "28103000257217",
+      "referencia_catastral": "3564501VK4736D0019ZM",
+      "direccion": "C/ Villafranca, nº 17 (Galería Local nº 19)",
+      "codigo_postal": "28028",
+      "localidad": "MADRID",
+      "provincia": "Madrid",
+      "vivienda_habitual": "No",
+      "situacion_posesoria": "Sin ocupantes",
+      "visitable": "No consta",
+      "cargas": "EN LA CERTIFICACION DE CARGAS DEL R.P Nº 22 DE MADRID UNIDA A AUTOS NO CONSTA CARGAS ANTERIORES AL GRAVAMEN QUE SE EJECUTA",
+      "inscripcion_registral": "Finca registral número 82.864 del Registro de la Propiedad Nº 22 de Madrid tomo 2219, libro 2219 folio 133 inscripción 1º"
+    }
+  },
+  "relacionados": {
+    "nombre": "C.P C/VILLAFRANCA,17",
+    "nif": "H81020166",
+    "direccion": "C/VILLAFRANCA,17",
+    "localidad": "28029 MADRID",
+    "provincia": "Madrid",
+    "pais": "España"
+  },
+  "pujas": { "1": "3.700,00 €", "2": "5.000,01 €" }
+}

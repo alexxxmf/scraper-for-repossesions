@@ -1,7 +1,5 @@
 const puppeteer = require("puppeteer");
 
-const url =
-  "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2019-141546&ver=1&numPagBus=";
 const makeUrlForDetailPage = (idSub, page = 1, idLot = "") =>
   `https://subastas.boe.es/detalleSubasta.php?idSub=${idSub}&ver=${page}&idLote=${idLot}`;
 
@@ -57,7 +55,7 @@ const intersect = (o1, o2) => {
   return Object.keys(o1).filter(k => k in o2);
 };
 
-(async () => {
+const extractSingleAuctionDetails = async idSub => {
   console.log("Starting crawling detail page...");
 
   const pageAvailableIndexes = [1, 2, 3, 4, 5];
@@ -72,7 +70,7 @@ const intersect = (o1, o2) => {
   do {
     // IMPORTANT!!!!
     // TODO: SUB-JA-2019-141546 this one is hardcoded, once in lambda expect a variable to come from context
-    url = makeUrlForDetailPage("SUB-JA-2019-141546", page);
+    url = makeUrlForDetailPage(idSub, page);
     await detailPage.goto(url);
     const result = await extractDataFromTablesInPage(detailPage);
 
@@ -88,4 +86,7 @@ const intersect = (o1, o2) => {
   console.log("Crawling done...");
 
   await browser.close();
-})();
+  return data;
+};
+
+exports.default = extractSingleAuctionDetails;

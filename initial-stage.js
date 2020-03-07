@@ -1,4 +1,6 @@
 const puppeteer = require("puppeteer");
+const fs = require("fs");
+const utils = require("./utils");
 
 const RESULTS_PER_PAGE = 2000;
 
@@ -56,15 +58,18 @@ const getRecordsFromPage = async page => {
     const pageRecords = await getRecordsFromPage(resultsPage);
 
     records = [...records, ...pageRecords];
-
-    step += 1;
     console.log(`::: Done crawling page ${step + 1} :::\n`);
+    step += 1;
   } while (!!pagSig);
 
   const elapsedTime = (Date.now() - start) / 1000;
 
   console.log(`Number of records crawled: ${records.length}`);
   console.log(`Elapsed time: ${elapsedTime} seconds`);
+
+  const jsonData = JSON.stringify(records);
+
+  utils.writeResults("results", jsonData);
 
   await browser.close();
 })();
