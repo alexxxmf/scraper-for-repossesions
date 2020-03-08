@@ -36,6 +36,19 @@ function round_to_precision(x, precision) {
   return y - (y % (precision === undefined ? 1 : +precision));
 }
 
+function deEurofy(euro) {
+  var euro = euro.match(/[\s-\d,\.]+/g);
+  if (euro) {
+    return +euro[0]
+      .replace(/\./g, "")
+      .replace(/,/g, ".")
+      .replace(/\s/g, ""); // return decimal
+  }
+  return undefined;
+}
+
 exports.writeResults = writeResults;
 exports.sleep = sleep;
 exports.randomNumberInRange = randomNumberInRange;
+exports.deEurofy = deEurofy;
+exports.round_to_precision = round_to_precision;

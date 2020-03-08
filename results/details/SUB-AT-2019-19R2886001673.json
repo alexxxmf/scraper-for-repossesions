@@ -1,1 +1,40 @@
-{"informacion_general":{"identificador":"SUB-AT-2019-19R2886001673","tipo_de_subasta":"AGENCIA TRIBUTARIA","fecha_de_inicio":"07-01-2020 18:00:00 CET (ISO: 2020-01-07T18:00:00+01:00)","fecha_de_conclusion":"27-01-2020 22:33:23 CET (ISO: 2020-01-27T22:33:23+01:00)","lotes":"Sin lotes","anuncio_boe":"BOE-B-2020-323","valor_subasta":"4.554,72 €","tasacion":"4.554,72 €","puja_minima":"Sin puja mínima","tramos_entre_pujas":"200,00 €","importe_del_deposito":"227,73 €"},"autoridad_gestora":{"codigo":"R28860","descripcion":"U.R. SUBASTAS MADRID (AEAT)","direccion":"CL GUZMAN EL BUENO 139 ; 28003 MADRID","telefono":"913685360","fax":"-","correo_electronico":"subastas.madrid@correo.aeat.es"},"bienes":{"descripcion":"URBANA. TRES-33. TRASTERO NÚMERO 2, EN SOTANO-1, DEL EDIFICIO APARTAHOTEL \"LOS ROBLES\", UBICADO EN LA FASE 1-C, DEL COMPLEJO URBANÍSTICO SITUADO SOBRE PARCELA DE TERRENO NÚMERO TRES, DE LA HACIENDA DENOMINADA DE TORREQUEBRADA, EN BENALMADENA -MÁLAGA- D.P. 29630. OCUPA UNA SUPERFICIE CONSTRUIDA DE NUEVE METROS CINCUENTA Y TRES DECÍMETROS CUADRADOS. LINDA: POR SU FRENTE, ZONA DE ACCESO; DERECHA ENTRANDO, TRASTERO NÚMERO 3; IZQUIERDA, TRASTERO NÚMERO 1; Y FONDO, MURO. CUOTAS: EN SU EDIFICIO 0 FASE 1-C: CERO ENTEROS DOS MIL SETECIENTOS OCHENTA Y NUEVE DIEZMILÉSIMOS POR CIENTO. Y EN EL COMPLEJO URBANÍSTICO: 0,02%. EN CATASTRO: UR TORREQUEBRADA 5; BL:1C; ES:1; PL:-1; PTA:2. EDIFICIO LOS ROBLES. 29639. BENALMADENA. MALAGA","idufir":"29035000789582","referencia_catastral":"0704903UF6500S0163YA","direccion":"UR TORREQUEBRADA 0","codigo_postal":"29630","localidad":"BENALMADENA","provincia":"Málaga","situacion_posesoria":"No consta","visitable":"No","cargas":"0,00 €","inscripcion_registral":"BIEN INSCRITO EN REGISTRO NÚM. 2 DE BENALMADENA TOMO: 1357 , FOLIO: 11 , LIBRO: 787. FINCA: 40030 , INSCRIPCIÓN: 2","titulo_juridico":"PLENO DOMINIO","informacion_adicional":"Cargas que afectan al bien: existe más información en imágenes-anexo."},"relacionados":{},"pujas":{"pujaMaxima":"2.600,00 €"}}
+{
+  "informacion_general": {
+    "identificador": "SUB-AT-2019-19R2886001673",
+    "tipo_de_subasta": "AGENCIA TRIBUTARIA",
+    "fecha_de_inicio": "07-01-2020 18:00:00 CET (ISO: 2020-01-07T18:00:00+01:00)",
+    "fecha_de_conclusion": "27-01-2020 22:33:23 CET (ISO: 2020-01-27T22:33:23+01:00)",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2020-323",
+    "valor_subasta": "4.554,72 €",
+    "tasacion": "4.554,72 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "200,00 €",
+    "importe_del_deposito": "227,73 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "R28860",
+    "descripcion": "U.R. SUBASTAS MADRID (AEAT)",
+    "direccion": "CL GUZMAN EL BUENO 139 ; 28003 MADRID",
+    "telefono": "913685360",
+    "fax": "-",
+    "correo_electronico": "subastas.madrid@correo.aeat.es"
+  },
+  "bienes": {
+    "descripcion": "URBANA. TRES-33. TRASTERO NÚMERO 2, EN SOTANO-1, DEL EDIFICIO APARTAHOTEL \"LOS ROBLES\", UBICADO EN LA FASE 1-C, DEL COMPLEJO URBANÍSTICO SITUADO SOBRE PARCELA DE TERRENO NÚMERO TRES, DE LA HACIENDA DENOMINADA DE TORREQUEBRADA, EN BENALMADENA -MÁLAGA- D.P. 29630. OCUPA UNA SUPERFICIE CONSTRUIDA DE NUEVE METROS CINCUENTA Y TRES DECÍMETROS CUADRADOS. LINDA: POR SU FRENTE, ZONA DE ACCESO; DERECHA ENTRANDO, TRASTERO NÚMERO 3; IZQUIERDA, TRASTERO NÚMERO 1; Y FONDO, MURO. CUOTAS: EN SU EDIFICIO 0 FASE 1-C: CERO ENTEROS DOS MIL SETECIENTOS OCHENTA Y NUEVE DIEZMILÉSIMOS POR CIENTO. Y EN EL COMPLEJO URBANÍSTICO: 0,02%. EN CATASTRO: UR TORREQUEBRADA 5; BL:1C; ES:1; PL:-1; PTA:2. EDIFICIO LOS ROBLES. 29639. BENALMADENA. MALAGA",
+    "idufir": "29035000789582",
+    "referencia_catastral": "0704903UF6500S0163YA",
+    "direccion": "UR TORREQUEBRADA 0",
+    "codigo_postal": "29630",
+    "localidad": "BENALMADENA",
+    "provincia": "Málaga",
+    "situacion_posesoria": "No consta",
+    "visitable": "No",
+    "cargas": "0,00 €",
+    "inscripcion_registral": "BIEN INSCRITO EN REGISTRO NÚM. 2 DE BENALMADENA TOMO: 1357 , FOLIO: 11 , LIBRO: 787. FINCA: 40030 , INSCRIPCIÓN: 2",
+    "titulo_juridico": "PLENO DOMINIO",
+    "informacion_adicional": "Cargas que afectan al bien: existe más información en imágenes-anexo."
+  },
+  "relacionados": {},
+  "pujas": { "pujaMaxima": "2.600,00 €" }
+}

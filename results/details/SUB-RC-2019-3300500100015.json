@@ -1,0 +1,48 @@
+{
+  "informacion_general": {
+    "identificador": "SUB-RC-2019-3300500100015",
+    "tipo_de_subasta": "RECAUDACIÓN TRIBUTARIA",
+    "fecha_de_inicio": "09-04-2019 18:00:00 CET (ISO: 2019-04-09T18:00:00+02:00)",
+    "fecha_de_conclusion": "29-04-2019 23:26:54 CET (ISO: 2019-04-29T23:26:54+02:00)",
+    "cantidad_reclamada": "25.950,37 €",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2019-15281",
+    "valor_subasta": "15.903,98 €",
+    "tasacion": "15.903,98 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "600,00 €",
+    "importe_del_deposito": "795,20 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "33005001",
+    "descripcion": "ENTE PUBLICO DE SERVICIOS TRIBUTARIOS DEL PRINCIPADO DE ASTURIAS (Principado de Asturias)",
+    "direccion": "AV. HERMANOS MENENDEZ PIDAL, 7 ; 33005 OVIEDO",
+    "telefono": "985668706",
+    "fax": "-",
+    "correo_electronico": "subastas@tributas.es"
+  },
+  "bienes": {
+    "descripcion": "URBANA.- Derechos Hereditarios en virtud de la herencia causada por D. Cosme Feito Santiago, NIF 11296277B, sobre el Departamento número VEINTE. Vivienda tipo A, señalada con la misma letra en los plano del proyecto básico y de ejecución, situada en el ala derecha de la primera planta, del edificio de viviendas con frente a la calle VT-4 y calle Velázquez, sita en términos de Montevil, de Gijón.",
+    "idufir": "33022000270151",
+    "referencia_catastral": "4419703TP8241N00201W.",
+    "direccion": "PZ JACQUES-YVES COUSTEAU 8, ESC 1, 1º C",
+    "codigo_postal": "33211",
+    "localidad": "GIJON",
+    "provincia": "Asturias",
+    "vivienda_habitual": "Sí",
+    "situacion_posesoria": "No consta",
+    "visitable": "No",
+    "cargas": "NO CONSTAN",
+    "inscripcion_registral": "REGISTRO 1 GIJÓN",
+    "titulo_juridico": "DERECHOS HEREDITARIOS",
+    "informacion_adicional": "Finca 31.784, Libro 541, Tomo 2.170, Folio 163 del Registro de la Propiedad Gijón 1"
+  },
+  "relacionados": {
+    "nombre": "ENTE PUBLICO DE SERVICIOS TRIBUTARIOS DEL PRINCIPADO DE ASTURIAS",
+    "nif": "Q3300312J",
+    "direccion": "AV. HERMANOS MENENDEZ PIDAL, 7",
+    "localidad": "33005 OVIEDO",
+    "provincia": "Asturias"
+  },
+  "pujas": { "pujaMaxima": "12.600,00 €" }
+}

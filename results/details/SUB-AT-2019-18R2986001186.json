@@ -1,0 +1,39 @@
+{
+  "informacion_general": {
+    "identificador": "SUB-AT-2019-18R2986001186",
+    "tipo_de_subasta": "AGENCIA TRIBUTARIA",
+    "fecha_de_inicio": "23-04-2019 18:00:00 CET (ISO: 2019-04-23T18:00:00+02:00)",
+    "fecha_de_conclusion": "14-05-2019 00:38:14 CET (ISO: 2019-05-14T00:38:14+02:00)",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2019-17382",
+    "valor_subasta": "36.262,40 €",
+    "tasacion": "36.262,40 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "1.000,00 €",
+    "importe_del_deposito": "1.813,12 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "R29860",
+    "descripcion": "U.R. SUBASTAS ANDALUCIA 29 (AEAT)",
+    "direccion": "AV DE ANDALUCIA 2 ; 29071 MALAGA",
+    "telefono": "952077488",
+    "fax": "-",
+    "correo_electronico": "subastas.andalucía@correo.aeat.es"
+  },
+  "bienes": {
+    "descripcion": "URBANA. ELEMENTO OCHO: LOCAL DIAFANO, SITO EN LA PLANTA BAJA, DEL EDIFICIO SIN NUMERO DE GOBIERNO DE LA CALLE VERACRUZ, ESQUINA A CALLE CAPOTE DE LA CIUDAD DE LUCENA, CON ACCESO A TRAVES DE LA CALLE CORRALAS Y GALERIA DESCUBIERTA. TIENE UNA SUPERFICIE CONSTRUIDA DE SESENTA Y TRES METROS Y SETENTA Y NUEVE DECIMETROS CUADRADOS, HALLANDOSE SIN DISTRIBUCION INTERIOR. LINDA: FRENTE, DICHA CALLA; IZQUIERDA, GALERIA DESCUBIERTA; DERECHA, CASA DE JOSE LOPEZ MOLERO; Y FONDO, PORTAL 6 Y ELEMENTO 9. TIENE COMO ANEJO INSEPARAPLE EL PATIO DE CUARENTA Y DOS METROS CUADRADOS, SITO AL FONDO DEL EDIFICIO Y A LA IZQUIERDA DEL MISMO, VISTO DESDE LA CALLE VERACRUZ. CUOTA: 0,7503%.",
+    "idufir": "14009000346609",
+    "referencia_catastral": "8815407UG6481N0041QB",
+    "direccion": "CL VERACRUZ 1 E 00 8",
+    "codigo_postal": "14900",
+    "localidad": "LUCENA",
+    "provincia": "Córdoba",
+    "situacion_posesoria": "No consta",
+    "visitable": "No consta",
+    "cargas": "0,00 €",
+    "inscripcion_registral": "BIEN INSCRITO EN REGISTRO NÚM. 1 DE LUCENA TOMO: 879 , FOLIO: 200 , LIBRO: 779. FINCA: 12798 , INSCRIPCIÓN: 4",
+    "titulo_juridico": "PLENO DOMINIO"
+  },
+  "relacionados": {},
+  "pujas": { "pujaMaxima": "16.000,00 €" }
+}

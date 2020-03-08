@@ -1,0 +1,47 @@
+{
+  "informacion_general": {
+    "identificador": "SUB-RC-2019-3300500100019",
+    "tipo_de_subasta": "RECAUDACIÓN TRIBUTARIA",
+    "fecha_de_inicio": "09-04-2019 18:00:00 CET (ISO: 2019-04-09T18:00:00+02:00)",
+    "fecha_de_conclusion": "29-04-2019 21:34:51 CET (ISO: 2019-04-29T21:34:51+02:00)",
+    "cantidad_reclamada": "18.466,52 €",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2019-15280",
+    "valor_subasta": "586,29 €",
+    "tasacion": "586,29 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "50,00 €",
+    "importe_del_deposito": "29,32 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "33005001",
+    "descripcion": "ENTE PUBLICO DE SERVICIOS TRIBUTARIOS DEL PRINCIPADO DE ASTURIAS (Principado de Asturias)",
+    "direccion": "AV. HERMANOS MENENDEZ PIDAL, 7 ; 33005 OVIEDO",
+    "telefono": "985668706",
+    "fax": "-",
+    "correo_electronico": "subastas@tributas.es"
+  },
+  "bienes": {
+    "descripcion": "RUSTICA.- Derechos hereditarios en virtud de la herencia causada por ELOISA SUARDIAZ RIVERO, NIF 10682134Z sobre la finca sita en el concejo de Colunga, parroquia de Lué, y sitio de la HUERTINA, una finca a prado con árboles, que mide doce áreas.",
+    "idufir": "33019000965538",
+    "referencia_catastral": "52019A011001940000GF",
+    "direccion": "POLÍGONO 11 PARCELA 194 CASTAÑER.",
+    "codigo_postal": "33340",
+    "localidad": "COLUNGA",
+    "provincia": "Asturias",
+    "situacion_posesoria": "No consta",
+    "visitable": "Sí",
+    "cargas": "NO CONSTAN",
+    "inscripcion_registral": "REGISTRO DE VILLAVICIOSA",
+    "titulo_juridico": "DERECHOS HEREDITARIOS",
+    "informacion_adicional": "FINCA 16721, LIBRO 200, TOMO 613, FOLIO 183 del Registro de Villaviciosa."
+  },
+  "relacionados": {
+    "nombre": "ENTE PUBLICO DE SERVICIOS TRIBUTARIOS DEL PRINCIPADO DE ASTURIAS",
+    "nif": "Q3300312J",
+    "direccion": "AV. HERMANOS MENENDEZ PIDAL, 7",
+    "localidad": "33005 OVIEDO",
+    "provincia": "Asturias"
+  },
+  "pujas": { "pujaMaxima": "500,00 €" }
+}
