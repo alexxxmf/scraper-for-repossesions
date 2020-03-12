@@ -1,63 +1,67 @@
 const fs = require("fs");
+const { Parser } = require("json2csv");
+
 const utils = require("./utils");
 
 const BASE_PATH = `${__dirname}/results/details`;
 
+const generateSingleAuctionEntry = auction => {
+  return {
+    subId: auction.informacion_general.identificador,
+    estimatedValue: auction.informacion_general.valor_subasta
+      ? utils.deEurofy(auction.informacion_general.valor_subasta)
+      : "",
+    debtAmount: auction.informacion_general.cantidad_reclamada
+      ? utils.deEurofy(auction.informacion_general.cantidad_reclamada)
+      : "",
+    independentValuation: auction.informacion_general.tasacion
+      ? utils.deEurofy(auction.informacion_general.tasacion)
+      : "",
+    province: auction.bienes.provincia
+      ? utils.cleanAndNormalizeString(auction.bienes.provincia.toLowerCase())
+      : "",
+    postalCode: auction.bienes.codigo_postal
+      ? auction.bienes.codigo_postal
+      : "",
+    maxBid: auction.pujas.pujaMaxima
+      ? utils.deEurofy(auction.pujas.pujaMaxima)
+      : 0
+  };
+};
+
 function main() {
   const files = fs.readdirSync(BASE_PATH);
 
+  const allSingleAuctions = [];
+
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
-    let rawData = fs.readFileSync(`${BASE_PATH}/${file}`);
-    let auctionDetail = JSON.parse(rawData);
-
-    const auctionDetailCopy = JSON.parse(JSON.stringify(auctionDetail));
-    delete auctionDetailCopy.lotes;
-
-    if (
-      auctionDetail.informacion_general.lotes !== "Sin lotes" &&
-      !!auctionDetail.lotes
-    ) {
-      const subId = auctionDetail.informacion_general.identificador;
-      const lots = auctionDetail.lotes;
-
-      const lotsArray = Object.values(lots);
-
-      const totalValuationForAssets = lotsArray.reduce((total, currentLot) => {
-        if (!currentLot.valor_subasta) {
-          return 0;
-        }
-        return (total += utils.deEurofy(currentLot.valor_subasta));
-      }, 0);
-
-      const arrayOfAuctions = lotsArray.map((lot, index) => {
-        auctionDetailCopy.informacion_general.identificador = `${subId}-lote${index}`;
-
-        if (!!lot.valor_subasta) {
-          const lotValue = utils.deEurofy(lot.valor_subasta);
-
-          auctionDetailCopy.informacion_general.cantidad_reclamada = utils.round_to_precision(
-            (lotValue / totalValuationForAssets) *
-              utils.deEurofy(
-                auctionDetail.informacion_general.cantidad_reclamada
-              ),
-            0.01
-          );
-        } else {
-          auctionDetailCopy.informacion_general.cantidad_reclamada = "";
-        }
-
-        auctionDetailCopy.pujas = {
-          pujaMaxima: auctionDetail.pujas[`${index}`]
-            ? auctionDetail.pujas[`${index}`]
-            : "Sin pujas"
-        };
-
-        return { ...auctionDetailCopy, bienes: { ...lot } };
-      });
-      console.log(arrayOfAuctions);
+    if (!file.includes(".json")) {
+      continue;
     }
+    let rawData = fs.readFileSync(`${BASE_PATH}/${file}`);
+    let auction = JSON.parse(rawData);
+
+    if (auction.informacion_general.lotes !== "Sin lotes") {
+      continue;
+    }
+    allSingleAuctions.push(generateSingleAuctionEntry(auction));
   }
+
+  const fields = [
+    "subId",
+    "estimatedValue",
+    "debtAmount",
+    "independentValuation",
+    "province",
+    "postalCode",
+    "maxBid"
+  ];
+
+  const json2csvParser = new Parser({ fields });
+  const csv = json2csvParser.parse(allSingleAuctions);
+
+  fs.writeFileSync(`${__dirname}/results/csv/allAuctions.csv`, csv);
 }
 
 main();

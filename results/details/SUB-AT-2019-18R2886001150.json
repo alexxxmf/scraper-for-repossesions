@@ -1,1 +1,40 @@
-{"informacion_general":{"identificador":"SUB-AT-2019-18R2886001150","tipo_de_subasta":"AGENCIA TRIBUTARIA","fecha_de_inicio":"31-01-2019 18:00:00 CET (ISO: 2019-01-31T18:00:00+01:00)","fecha_de_conclusion":"20-02-2019 18:21:03 CET (ISO: 2019-02-20T18:21:03+01:00)","lotes":"Sin lotes","anuncio_boe":"BOE-B-2019-3522","valor_subasta":"7.125,00 €","tasacion":"7.125,00 €","puja_minima":"Sin puja mínima","tramos_entre_pujas":"500,00 €","importe_del_deposito":"356,25 €"},"autoridad_gestora":{"codigo":"R28860","descripcion":"U.R. SUBASTAS MADRID (AEAT)","direccion":"CL GUZMAN EL BUENO 139 ; 28003 MADRID","telefono":"915826202","fax":"-","correo_electronico":"subastas.madrid@correo.aeat.es"},"bienes":{"descripcion":"URBANA. FINCA NÚMERO 60. PLAZA DE GARAJE Nº 60 S2.21, SITUADA EN PLANTA DE SÓTANO DOS DEL EDIFICIO SUBTERRÁNEO DESTINADO A PLAZAS DE APARCAMIENTO Y TRASTEROS, SITO EN PARCELA AS, UNIDAD SUBTERRÁNEA DEL COMPLEJO INMOBILIARIO PROLONGACIÓN CALLE SANTILLANA, DE LA UNIDAD DE GESTIÓN UG-8 DE SAN FERNANDO DE HENARES (MADRID). SUPERFICIE CONSTRUIDA DE 31,15 M2. SUPERFICIE ÚTIL CON INCLUSIÓN DE ELEMENTOS COMUNES DE 26,23 M2. LINDA: AL FRENTE Y DERECHA ENTRANDO, CON ZONA DE CIRCULACIÓN Y MANIOBRA; IZQUIERDA CON PLAZA DE GARAJE Nº 59; Y FONDO, CON ESPACIO COMÚN. CUOTA: 0,98 %. SUJETA A LA LEY DE PROPIEDAD HORIZONTAL.","idufir":"28129000269203","referencia_catastral":"5052139VK5745S0091DU","direccion":"CL SANTILLANA 6 G -2 60","codigo_postal":"28830","localidad":"SAN FERNANDO DE HENARES","provincia":"Madrid","situacion_posesoria":"No consta","visitable":"No","cargas":"0,00 €","inscripcion_registral":"BIEN INSCRITO EN REGISTRO DE SAN FERNANDO DE HENARES TOMO: 1439 , FOLIO: 47 , LIBRO: 547. FINCA: 31591 , INSCRIPCIÓN: 1","titulo_juridico":"PLENO DOMINIO","informacion_adicional":"REFERENCIA CATASTRAL: 5052139VK5745S 0091 DU"},"relacionados":{},"pujas":{"pujaMaxima":"4.000,00 €"}}
+{
+  "informacion_general": {
+    "identificador": "SUB-AT-2019-18R2886001150",
+    "tipo_de_subasta": "AGENCIA TRIBUTARIA",
+    "fecha_de_inicio": "31-01-2019 18:00:00 CET (ISO: 2019-01-31T18:00:00+01:00)",
+    "fecha_de_conclusion": "20-02-2019 18:21:03 CET (ISO: 2019-02-20T18:21:03+01:00)",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2019-3522",
+    "valor_subasta": "7.125,00 €",
+    "tasacion": "7.125,00 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "500,00 €",
+    "importe_del_deposito": "356,25 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "R28860",
+    "descripcion": "U.R. SUBASTAS MADRID (AEAT)",
+    "direccion": "CL GUZMAN EL BUENO 139 ; 28003 MADRID",
+    "telefono": "915826202",
+    "fax": "-",
+    "correo_electronico": "subastas.madrid@correo.aeat.es"
+  },
+  "bienes": {
+    "descripcion": "URBANA. FINCA NÚMERO 60. PLAZA DE GARAJE Nº 60 S2.21, SITUADA EN PLANTA DE SÓTANO DOS DEL EDIFICIO SUBTERRÁNEO DESTINADO A PLAZAS DE APARCAMIENTO Y TRASTEROS, SITO EN PARCELA AS, UNIDAD SUBTERRÁNEA DEL COMPLEJO INMOBILIARIO PROLONGACIÓN CALLE SANTILLANA, DE LA UNIDAD DE GESTIÓN UG-8 DE SAN FERNANDO DE HENARES (MADRID). SUPERFICIE CONSTRUIDA DE 31,15 M2. SUPERFICIE ÚTIL CON INCLUSIÓN DE ELEMENTOS COMUNES DE 26,23 M2. LINDA: AL FRENTE Y DERECHA ENTRANDO, CON ZONA DE CIRCULACIÓN Y MANIOBRA; IZQUIERDA CON PLAZA DE GARAJE Nº 59; Y FONDO, CON ESPACIO COMÚN. CUOTA: 0,98 %. SUJETA A LA LEY DE PROPIEDAD HORIZONTAL.",
+    "idufir": "28129000269203",
+    "referencia_catastral": "5052139VK5745S0091DU",
+    "direccion": "CL SANTILLANA 6 G -2 60",
+    "codigo_postal": "28830",
+    "localidad": "SAN FERNANDO DE HENARES",
+    "provincia": "Madrid",
+    "situacion_posesoria": "No consta",
+    "visitable": "No",
+    "cargas": "0,00 €",
+    "inscripcion_registral": "BIEN INSCRITO EN REGISTRO DE SAN FERNANDO DE HENARES TOMO: 1439 , FOLIO: 47 , LIBRO: 547. FINCA: 31591 , INSCRIPCIÓN: 1",
+    "titulo_juridico": "PLENO DOMINIO",
+    "informacion_adicional": "REFERENCIA CATASTRAL: 5052139VK5745S 0091 DU"
+  },
+  "relacionados": {},
+  "pujas": { "pujaMaxima": "4.000,00 €" }
+}

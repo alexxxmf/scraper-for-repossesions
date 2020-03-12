@@ -47,8 +47,17 @@ function deEurofy(euro) {
   return undefined;
 }
 
+const cleanAndNormalizeString = string => {
+  return string
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/ /g, "_");
+};
+
 exports.writeResults = writeResults;
 exports.sleep = sleep;
 exports.randomNumberInRange = randomNumberInRange;
 exports.deEurofy = deEurofy;
 exports.round_to_precision = round_to_precision;
+exports.cleanAndNormalizeString = cleanAndNormalizeString;

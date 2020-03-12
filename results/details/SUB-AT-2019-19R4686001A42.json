@@ -1,1 +1,40 @@
-{"informacion_general":{"identificador":"SUB-AT-2019-19R4686001A42","tipo_de_subasta":"AGENCIA TRIBUTARIA","fecha_de_inicio":"27-12-2019 18:00:00 CET (ISO: 2019-12-27T18:00:00+01:00)","fecha_de_conclusion":"16-01-2020 18:00:00 CET (ISO: 2020-01-16T18:00:00+01:00)","lotes":"Sin lotes","anuncio_boe":"BOE-B-2019-55810","valor_subasta":"1.250,06 €","tasacion":"1.250,06 €","puja_minima":"Sin puja mínima","tramos_entre_pujas":"100,00 €","importe_del_deposito":"62,50 €"},"autoridad_gestora":{"codigo":"R46860","descripcion":"U.R. SUBASTAS VALENCIA (AEAT)","direccion":"AV BLASCO IBAÑEZ 50 ; 46010 VALENCIA","telefono":"963102800","fax":"-","correo_electronico":"subastas.valencia@correo.aeat.es"},"bienes":{"descripcion":"RUSTICA.- SECANO ALGARROBOS. LOCALIZACION PARAJE PINAR. SUPERFICIE DEL TERRENO UNA HECTAREA CUATRO AREAS NOVENTA Y SEIS CENTIAREAS. POLIGONO 2, PARCELAS 364 Y 370.","idufir":"46026000514615","referencia_catastral":"46135A020036400000XL","direccion":"PD PARAJE PINAR 0","codigo_postal":"46166","localidad":"GESTALGAR","provincia":"Valencia","situacion_posesoria":"No consta","visitable":"No","cargas":"0,00 €","inscripcion_registral":"BIEN INSCRITO EN REGISTRO DE VILLAR DEL ARZOBISPO TOMO: 468 , FOLIO: 130 , LIBRO: 43. FINCA: 5482 , INSCRIPCIÓN: 1","titulo_juridico":"PLENO DOMINIO","informacion_adicional":"REFERENCIA CATASTRAL.- 46135A002003640000XL, 46135A002003700000XM"},"relacionados":{},"pujas":{"pujaMaxima":"400,00 €"}}
+{
+  "informacion_general": {
+    "identificador": "SUB-AT-2019-19R4686001A42",
+    "tipo_de_subasta": "AGENCIA TRIBUTARIA",
+    "fecha_de_inicio": "27-12-2019 18:00:00 CET (ISO: 2019-12-27T18:00:00+01:00)",
+    "fecha_de_conclusion": "16-01-2020 18:00:00 CET (ISO: 2020-01-16T18:00:00+01:00)",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2019-55810",
+    "valor_subasta": "1.250,06 €",
+    "tasacion": "1.250,06 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "100,00 €",
+    "importe_del_deposito": "62,50 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "R46860",
+    "descripcion": "U.R. SUBASTAS VALENCIA (AEAT)",
+    "direccion": "AV BLASCO IBAÑEZ 50 ; 46010 VALENCIA",
+    "telefono": "963102800",
+    "fax": "-",
+    "correo_electronico": "subastas.valencia@correo.aeat.es"
+  },
+  "bienes": {
+    "descripcion": "RUSTICA.- SECANO ALGARROBOS. LOCALIZACION PARAJE PINAR. SUPERFICIE DEL TERRENO UNA HECTAREA CUATRO AREAS NOVENTA Y SEIS CENTIAREAS. POLIGONO 2, PARCELAS 364 Y 370.",
+    "idufir": "46026000514615",
+    "referencia_catastral": "46135A020036400000XL",
+    "direccion": "PD PARAJE PINAR 0",
+    "codigo_postal": "46166",
+    "localidad": "GESTALGAR",
+    "provincia": "Valencia",
+    "situacion_posesoria": "No consta",
+    "visitable": "No",
+    "cargas": "0,00 €",
+    "inscripcion_registral": "BIEN INSCRITO EN REGISTRO DE VILLAR DEL ARZOBISPO TOMO: 468 , FOLIO: 130 , LIBRO: 43. FINCA: 5482 , INSCRIPCIÓN: 1",
+    "titulo_juridico": "PLENO DOMINIO",
+    "informacion_adicional": "REFERENCIA CATASTRAL.- 46135A002003640000XL, 46135A002003700000XM"
+  },
+  "relacionados": {},
+  "pujas": { "pujaMaxima": "400,00 €" }
+}
