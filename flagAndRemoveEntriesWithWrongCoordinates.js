@@ -4,11 +4,13 @@ const utils = require("./utils");
 const BASE_PATH = `${__dirname}/results`;
 
 const threshold = {
-  minLat: 27,
-  maxLat: 36,
-  minLng: -20,
-  maxLng: 5
+  minLat: 24.0,
+  maxLat: 44.0,
+  minLng: -20.0,
+  maxLng: 5.2
 };
+
+const DELETE_MODE = true;
 
 const main = () => {
   const rawData = fs.readFileSync(`${BASE_PATH}/coordinates.json`);
@@ -20,15 +22,15 @@ const main = () => {
     if (!!parsedData[postalCode]) {
       const { lat, lng } = parsedData[postalCode];
       if (lat > threshold.maxLat || lat < threshold.minLat) {
-        return false;
+        return true;
       }
       if (lng > threshold.maxLng || lng < threshold.minLng) {
-        return false;
+        return true;
       }
 
-      return true;
+      return false;
     } else {
-      return true;
+      return false;
     }
   });
 
@@ -43,14 +45,16 @@ const main = () => {
   );
   console.log("Conflicting postal codes", postalCodesWithAnomalousCoordinates);
 
-  postalCodesWithAnomalousCoordinates.forEach(conflictingPostalCode => {
-    delete parsedData[conflictingPostalCode];
-  });
+  if (DELETE_MODE) {
+    postalCodesWithAnomalousCoordinates.forEach(conflictingPostalCode => {
+      delete parsedData[conflictingPostalCode];
+    });
 
-  fs.writeFileSync(
-    `${__dirname}/results/coordinates.json`,
-    JSON.stringify(parsedData)
-  );
+    fs.writeFileSync(
+      `${__dirname}/results/coordinates.json`,
+      JSON.stringify(parsedData)
+    );
+  }
 };
 
 main();

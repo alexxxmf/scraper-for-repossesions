@@ -13,7 +13,6 @@ const getCoordinatesByPostalCode = async (postalCode, province) => {
     .asPromise()
     .then(response => {
       const firstResult = response.json.results[0];
-
       if (
         !!firstResult &&
         !!firstResult.geometry &&
@@ -28,5 +27,7 @@ const getCoordinatesByPostalCode = async (postalCode, province) => {
     })
     .catch(error => console.log(error));
 };
+
+getCoordinatesByPostalCode(38399, "santa_cruz_de_tenerife");
 
 exports.default = getCoordinatesByPostalCode;
