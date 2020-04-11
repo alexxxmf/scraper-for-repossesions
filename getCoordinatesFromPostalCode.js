@@ -7,9 +7,9 @@ const googleMapsClient = require("@google/maps").createClient({
   Promise: Promise
 });
 
-const getCoordinatesByPostalCode = async postalCode => {
+const getCoordinatesByPostalCode = async (postalCode, province) => {
   return await googleMapsClient
-    .geocode({ address: `españa, ${postalCode}` })
+    .geocode({ address: `españa, ${province}, ${postalCode}` })
     .asPromise()
     .then(response => {
       const firstResult = response.json.results[0];
@@ -20,6 +20,7 @@ const getCoordinatesByPostalCode = async postalCode => {
         !!firstResult.geometry.location
       ) {
         const { lat, lng } = response.json.results[0].geometry.location;
+
         return { lat, lng };
       } else {
         return null;

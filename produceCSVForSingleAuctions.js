@@ -43,14 +43,20 @@ const generateSingleAuctionEntry = async (auction, coordinatesObject) => {
     ? auction.bienes.codigo_postal
     : "";
 
+  const province = auction.bienes.provincia
+    ? utils.cleanAndNormalizeString(auction.bienes.provincia.toLowerCase())
+    : "";
+
   let coordinates;
 
   if (!!postalCode.length) {
     if (coordinatesObject.hasOwnProperty(postalCode)) {
       coordinates = coordinatesObject[postalCode];
     } else {
-      coordinates = await getCoordinates(postalCode);
-      console.log(`\nNetwork call with "${postalCode}"\n`);
+      coordinates = await getCoordinates(postalCode, province);
+      console.log(
+        `\nNetwork call with "postal code: ${postalCode}, province ${province}"\n`
+      );
 
       if (!!coordinates) {
         const { lat, lng } = coordinates;
@@ -79,9 +85,7 @@ const generateSingleAuctionEntry = async (auction, coordinatesObject) => {
     independentValuation: auction.informacion_general.tasacion
       ? utils.deEurofy(auction.informacion_general.tasacion)
       : null,
-    province: auction.bienes.provincia
-      ? utils.cleanAndNormalizeString(auction.bienes.provincia.toLowerCase())
-      : "",
+    province: province,
     longitude: !!coordinates && !!coordinates.lng ? coordinates.lng : null,
     latitude: !!coordinates && !!coordinates.lat ? coordinates.lat : null,
     maxBid: auction.pujas.pujaMaxima

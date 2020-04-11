@@ -1,1 +1,60 @@
-{"informacion_general":{"identificador":"SUB-JA-2016-42836","tipo_de_subasta":"JUDICIAL EN VIA DE APREMIO","fecha_de_inicio":"30-12-2016 18:00:00 CET (ISO: 2016-12-30T18:00:00+01:00)","fecha_de_conclusion":"19-01-2017 18:17:18 CET (ISO: 2017-01-19T18:17:18+01:00)","cantidad_reclamada":"18.888,65 €","lotes":"2","forma_adjudicacion":"Conjunta para todos los lotes","anuncio_boe":"BOE-B-2016-66961","valor_subasta":"7.700,00 €","tasacion":"7.700,00 €","puja_minima":"Sin puja mínima","tramos_entre_pujas":"Sin tramos","importe_del_deposito":"385,00 €"},"autoridad_gestora":{"codigo":"2807942061","descripcion":"JUZGADO 1ª INSTANCIA 61 (Ministerio de Justicia)","direccion":"CL MARIA DE MOLINA 42 42 ; 28006 MADRID","telefono":"914930874","fax":"914930875","correo_electronico":"-"},"lotes":{"1":{"descripcion":"1.- URBANA DOS-DOS. APARCAMIENTO señalado con el número 27, en la planta de sótano1 del bloque 1 del conjunto denominado “ANGEL DE MIRAFLORES”, sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga) , Ocupa una superficie construida de 33,22 metros cuadrados.","idufir":"29044000867909","referencia_catastral":"8308101UF4480N0322BY","direccion":"sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga)","codigo_postal":"29649","localidad":"MIJAS","provincia":"Málaga","situacion_posesoria":"No consta","visitable":"No consta","cargas":"NO TIENE","inscripcion_registral":"Finca registral núm. 90.891, folio 31 del libro 1216 inscripción 1ª del Registro de la Propiedad núm. 2 de Mijas."},"2":{"descripcion":"2.- URBANA DOS-TRES. TRASTERO señalado con el número 26, en la planta de sótano1 del bloque 1 del conjunto denominado “ANGEL DE MIRAFLORES”, sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga) , Ocupa una superficie construida de 12,42 metros cuadrados.","idufir":"29044000867916","referencia_catastral":"8308101UF4480N0322BY","direccion":"sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga","codigo_postal":"29469","localidad":"MIJAS","provincia":"Málaga","situacion_posesoria":"No consta","visitable":"No consta","cargas":"no tiene"}},"relacionados":{"nombre":"CASA CAMUÑAS DISTRIBUCION S.L.","nif":"B83563189","direccion":"CALLE FERNANDEZ DE LA HOZ, 62","localidad":"28010 MADRID","provincia":"Madrid"},"pujas":{}}
+{
+  "informacion_general": {
+    "identificador": "SUB-JA-2016-42836",
+    "tipo_de_subasta": "JUDICIAL EN VIA DE APREMIO",
+    "fecha_de_inicio": "30-12-2016 18:00:00 CET (ISO: 2016-12-30T18:00:00+01:00)",
+    "fecha_de_conclusion": "19-01-2017 18:17:18 CET (ISO: 2017-01-19T18:17:18+01:00)",
+    "cantidad_reclamada": "18.888,65 €",
+    "lotes": "2",
+    "forma_adjudicacion": "Conjunta para todos los lotes",
+    "anuncio_boe": "BOE-B-2016-66961",
+    "valor_subasta": "7.700,00 €",
+    "tasacion": "7.700,00 €",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "Sin tramos",
+    "importe_del_deposito": "385,00 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "2807942061",
+    "descripcion": "JUZGADO 1ª INSTANCIA 61 (Ministerio de Justicia)",
+    "direccion": "CL MARIA DE MOLINA 42 42 ; 28006 MADRID",
+    "telefono": "914930874",
+    "fax": "914930875",
+    "correo_electronico": "-"
+  },
+  "lotes": {
+    "1": {
+      "descripcion": "1.- URBANA DOS-DOS. APARCAMIENTO señalado con el número 27, en la planta de sótano1 del bloque 1 del conjunto denominado “ANGEL DE MIRAFLORES”, sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga) , Ocupa una superficie construida de 33,22 metros cuadrados.",
+      "idufir": "29044000867909",
+      "referencia_catastral": "8308101UF4480N0322BY",
+      "direccion": "sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga)",
+      "codigo_postal": "29649",
+      "localidad": "MIJAS",
+      "provincia": "Málaga",
+      "situacion_posesoria": "No consta",
+      "visitable": "No consta",
+      "cargas": "NO TIENE",
+      "inscripcion_registral": "Finca registral núm. 90.891, folio 31 del libro 1216 inscripción 1ª del Registro de la Propiedad núm. 2 de Mijas."
+    },
+    "2": {
+      "descripcion": "2.- URBANA DOS-TRES. TRASTERO señalado con el número 26, en la planta de sótano1 del bloque 1 del conjunto denominado “ANGEL DE MIRAFLORES”, sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga) , Ocupa una superficie construida de 12,42 metros cuadrados.",
+      "idufir": "29044000867916",
+      "referencia_catastral": "8308101UF4480N0322BY",
+      "direccion": "sito en Urbanización Angel de Miraflores, parcelas 137, 138,139 y 140 del Término municipal de MIJAS (Málaga",
+      "codigo_postal": "29469",
+      "localidad": "MIJAS",
+      "provincia": "Málaga",
+      "situacion_posesoria": "No consta",
+      "visitable": "No consta",
+      "cargas": "no tiene"
+    }
+  },
+  "relacionados": {
+    "nombre": "CASA CAMUÑAS DISTRIBUCION S.L.",
+    "nif": "B83563189",
+    "direccion": "CALLE FERNANDEZ DE LA HOZ, 62",
+    "localidad": "28010 MADRID",
+    "provincia": "Madrid"
+  },
+  "pujas": {}
+}
