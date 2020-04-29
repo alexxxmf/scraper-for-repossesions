@@ -1,1 +1,36 @@
-{"informacion_general":{"identificador":"SUB-JA-2019-142126","tipo_de_subasta":"JUDICIAL EN VIA DE APREMIO","fecha_de_inicio":"14-01-2020 18:00:00 CET (ISO: 2020-01-14T18:00:00+01:00)","fecha_de_conclusion":"03-02-2020 18:53:03 CET (ISO: 2020-02-03T18:53:03+01:00)","cantidad_reclamada":"51.641,47 €","lotes":"Sin lotes","anuncio_boe":"BOE-B-2020-652","valor_subasta":"No consta","tasacion":"No consta","puja_minima":"Sin puja mínima","tramos_entre_pujas":"Sin tramos","importe_del_deposito":"5.847,52 €"},"autoridad_gestora":{"codigo":"1808742007","descripcion":"JUZGADO 1ª INSTANCIA 7 (Ministerio de Justicia)","direccion":"PZ NUEVA 8 8 ; 18009 GRANADA","telefono":"958058968","fax":"958026446","correo_electronico":"jinstancia.7.granada.jus@juntadeandalucia.es"},"bienes":{"descripcion":"vivienda en semisótano B en C/ Santa Inés s/n , hoy nº 5 de Granada","direccion":"C/SANTA INÉS S/N , HOY Nº 5","codigo_postal":"18010","localidad":"GRANADA","provincia":"Granada","situacion_posesoria":"No consta","visitable":"No consta","inscripcion_registral":"FINCA Nº 55.628 OBRANTE AL FOLIO 4 DEL LIBRO 978, TOMO 1637, FOLIO 4 DEL REGISTRO DE LA PROPIEDAD Nº 1 DE GRANADA"},"relacionados":{},"pujas":{"pujaMaxima":"52.691,08 €"}}
+{
+  "informacion_general": {
+    "identificador": "SUB-JA-2019-142126",
+    "tipo_de_subasta": "JUDICIAL EN VIA DE APREMIO",
+    "fecha_de_inicio": "14-01-2020 18:00:00 CET (ISO: 2020-01-14T18:00:00+01:00)",
+    "fecha_de_conclusion": "03-02-2020 18:53:03 CET (ISO: 2020-02-03T18:53:03+01:00)",
+    "cantidad_reclamada": "51.641,47 €",
+    "lotes": "Sin lotes",
+    "anuncio_boe": "BOE-B-2020-652",
+    "valor_subasta": "No consta",
+    "tasacion": "No consta",
+    "puja_minima": "Sin puja mínima",
+    "tramos_entre_pujas": "Sin tramos",
+    "importe_del_deposito": "5.847,52 €"
+  },
+  "autoridad_gestora": {
+    "codigo": "1808742007",
+    "descripcion": "JUZGADO 1ª INSTANCIA 7 (Ministerio de Justicia)",
+    "direccion": "PZ NUEVA 8 8 ; 18009 GRANADA",
+    "telefono": "958058968",
+    "fax": "958026446",
+    "correo_electronico": "jinstancia.7.granada.jus@juntadeandalucia.es"
+  },
+  "bienes": {
+    "descripcion": "vivienda en semisótano B en C/ Santa Inés s/n , hoy nº 5 de Granada",
+    "direccion": "C/SANTA INÉS S/N , HOY Nº 5",
+    "codigo_postal": "18010",
+    "localidad": "GRANADA",
+    "provincia": "Granada",
+    "situacion_posesoria": "No consta",
+    "visitable": "No consta",
+    "inscripcion_registral": "FINCA Nº 55.628 OBRANTE AL FOLIO 4 DEL LIBRO 978, TOMO 1637, FOLIO 4 DEL REGISTRO DE LA PROPIEDAD Nº 1 DE GRANADA"
+  },
+  "relacionados": {},
+  "pujas": { "pujaMaxima": "52.691,08 €" }
+}

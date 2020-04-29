@@ -8,7 +8,7 @@ const extractLotAuctionDetails = require("./lot-auction-details").default;
 const main = async () => {
   const files = fs.readdirSync("./results/details");
 
-  let rawData = fs.readFileSync("./results/results-2020-4-5.json");
+  let rawData = fs.readFileSync("./results/results-2020-4-29.json");
   let auctions = JSON.parse(rawData);
 
   const subIdsForAlreadyScraped = files.map(file => file.split(".json")[0]);
