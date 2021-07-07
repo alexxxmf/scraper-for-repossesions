@@ -57,7 +57,6 @@ const getRecordsFromPage = async (page) => {
     let newRange = RESULTS_PER_PAGE * step;
     url = getUrl(newRange);
     await resultsPage.goto(url);
-    console.log("resultsPage", resultsPage);
 
     const pageRecords = await getRecordsFromPage(resultsPage);
 

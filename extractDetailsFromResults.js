@@ -1,17 +1,17 @@
 const fs = require("fs");
 const utils = require("./utils");
 
-const extractDetailsFromSingleAuction = require("./individual-auction-details")
-  .default;
+const extractDetailsFromSingleAuction =
+  require("./individual-auction-details").default;
 const extractLotAuctionDetails = require("./lot-auction-details").default;
 
 const main = async () => {
   const files = fs.readdirSync("./results/details");
 
-  let rawData = fs.readFileSync("./results/results-2020-4-29.json");
+  let rawData = fs.readFileSync("./results/results-2021-7-7.json");
   let auctions = JSON.parse(rawData);
 
-  const subIdsForAlreadyScraped = files.map(file => file.split(".json")[0]);
+  const subIdsForAlreadyScraped = files.map((file) => file.split(".json")[0]);
 
   let crawledItems = 0;
 
