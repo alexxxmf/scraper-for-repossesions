@@ -10,7 +10,12 @@ const RESULTS_PER_PAGE = 2000;
 const getUrl = (resultsRange = 0, resultsPerPage = RESULTS_PER_PAGE) =>
   `https://subastas.boe.es/subastas_ava.php?accion=Mas&id_busqueda=_cjliQkZ0a0RXT1NOUDZiNjFzSmU0VldJUjE1MDJRalZGMmEzcmgwZVd6WDVDNTR0aHRTaW5YeUIweTQ2V28yZy9HUnU0TGdnaUtyQnlKZnJqTmU0eHlLSHpkaGZjVU5NVy81Qnl3MVBKODZtSU1Ic2FFTGYwY044OGdsV1NibUtkMUF2VUtOa05qeWl5Q0M1Z2tQaEduemd6eHJrMWI4b0VrVzVsOVU4WCsvQWlDM3ppUG5zVFE2ZGtKNVBabStIR0daaEFxRys0ZmVIeitTRVdzK2lEVW83czd1UkMwS3dKSDhZc0YyQzhxNlRFODZOM2tzQkFvQkpGVkw5c1NjL3VlcTlHV3M5RGwzc1NYS2lYc2FYMDRtU1FOMUVBQTdyNzhnM0VlTm5seUU9-${resultsRange}-${resultsPerPage}`;
 
-const getRecordsFromPage = async page => {
+// .paginar p
+
+// id=contenido
+// No se han encontrado documentos
+
+const getRecordsFromPage = async (page) => {
   const recordsInPage = await page.evaluate(() => {
     let pagSig = document.querySelector(".pagSig");
     const records = [];
@@ -47,20 +52,24 @@ const getRecordsFromPage = async page => {
 
   let step = 0;
 
-  let pagSig;
-
-  do {
+  while (true) {
     console.log(`::: Crawling page ${step + 1} ::: \n`);
     let newRange = RESULTS_PER_PAGE * step;
     url = getUrl(newRange);
     await resultsPage.goto(url);
-    pagSig = await resultsPage.$(".pagSig");
+    console.log("resultsPage", resultsPage);
+
     const pageRecords = await getRecordsFromPage(resultsPage);
 
     records = [...records, ...pageRecords];
     console.log(`::: Done crawling page ${step + 1} :::\n`);
-    step += 1;
-  } while (!!pagSig);
+
+    if (!pageRecords.length) {
+      break;
+    } else {
+      step += 1;
+    }
+  }
 
   const elapsedTime = (Date.now() - start) / 1000;
 
